@@ -8,7 +8,6 @@ export default function Quote() {
     const fetchQuote = async () => {
       const response = await fetch(API_URL);
       const randomQuote = await response.json();
-      console.log(randomQuote);
       setQuote(randomQuote.content);
     };
     setTimeout(() => fetchQuote(), 60000);
