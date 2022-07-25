@@ -6,9 +6,18 @@ export default function Navbar() {
     <nav className="navbar">
       <h3>Math Magicians</h3>
       <ul className="nav-links">
-        <NavLink to="/">Home</NavLink>
-        <NavLink to="/calculator">Calculator</NavLink>
-        <NavLink to="/quote">Quote</NavLink>
+
+        <li>
+          <NavLink to="/">Home</NavLink>
+        </li>
+
+        <li>
+          <NavLink to="/calculator">Calculator</NavLink>
+        </li>
+
+        <li>
+          <NavLink to="/quote">Quote</NavLink>
+        </li>
       </ul>
     </nav>
   );
