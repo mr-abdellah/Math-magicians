@@ -19,33 +19,36 @@ const Calculator = () => {
     setState(calculation);
   }
   return (
-    <div className="calculator">
-      <input type="number" id="calculator-input" placeholder="0" onChange={handleInputChange} value={state.next || state.total || ''} />
+    <div className="container">
+      <h3>Let&apos;s do some math !</h3>
+      <div className="calculator">
+        <input type="number" id="calculator-input" placeholder="0" onChange={handleInputChange} value={state.next || state.total || ''} />
 
-      <button className="btn" type="submit" onClick={handleClick}>AC</button>
-      <button className="btn" type="submit" onClick={handleClick}>+/-</button>
-      <button className="btn" type="submit" onClick={handleClick}>%</button>
-      <button className="btn" id="orange" type="submit" onClick={handleClick}>÷</button>
+        <button className="btn" type="submit" onClick={handleClick}>AC</button>
+        <button className="btn" type="submit" onClick={handleClick}>+/-</button>
+        <button className="btn" type="submit" onClick={handleClick}>%</button>
+        <button className="btn" id="orange" type="submit" onClick={handleClick}>÷</button>
 
-      <button className="btn" type="submit" onClick={handleClick}>7</button>
-      <button className="btn" type="submit" onClick={handleClick}>8</button>
-      <button className="btn" type="submit" onClick={handleClick}>9</button>
-      <button className="btn" id="orange" type="submit" onClick={handleClick}>x</button>
+        <button className="btn" type="submit" onClick={handleClick}>7</button>
+        <button className="btn" type="submit" onClick={handleClick}>8</button>
+        <button className="btn" type="submit" onClick={handleClick}>9</button>
+        <button className="btn" id="orange" type="submit" onClick={handleClick}>x</button>
 
-      <button className="btn" type="submit" onClick={handleClick}>4</button>
-      <button className="btn" type="submit" onClick={handleClick}>5</button>
-      <button className="btn" type="submit" onClick={handleClick}>6</button>
-      <button className="btn" id="orange" type="submit" onClick={handleClick}>-</button>
+        <button className="btn" type="submit" onClick={handleClick}>4</button>
+        <button className="btn" type="submit" onClick={handleClick}>5</button>
+        <button className="btn" type="submit" onClick={handleClick}>6</button>
+        <button className="btn" id="orange" type="submit" onClick={handleClick}>-</button>
 
-      <button className="btn" type="submit" onClick={handleClick}>1</button>
-      <button className="btn" type="submit" onClick={handleClick}>2</button>
-      <button className="btn" type="submit" onClick={handleClick}>3</button>
-      <button className="btn" id="orange" type="submit" onClick={handleClick}>+</button>
+        <button className="btn" type="submit" onClick={handleClick}>1</button>
+        <button className="btn" type="submit" onClick={handleClick}>2</button>
+        <button className="btn" type="submit" onClick={handleClick}>3</button>
+        <button className="btn" id="orange" type="submit" onClick={handleClick}>+</button>
 
-      <button className="btn" type="submit" onClick={handleClick} id="zero">0</button>
-      <button className="btn" type="submit" onClick={handleClick}>.</button>
-      <button className="btn" id="orange" type="submit" onClick={handleClick}>=</button>
+        <button className="btn" type="submit" onClick={handleClick} id="zero">0</button>
+        <button className="btn" type="submit" onClick={handleClick}>.</button>
+        <button className="btn" id="orange" type="submit" onClick={handleClick}>=</button>
 
+      </div>
     </div>
   );
 };
