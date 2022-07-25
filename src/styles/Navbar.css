@@ -1,11 +1,14 @@
 nav {
   display: flex;
+  justify-content: space-between;
   align-items: center;
   width: 100%;
 }
 
 h3 {
-  margin-right: auto;
+  font-size: 27px;
+  color: #498c31;
+  margin-left: 5%;
 }
 
 ul {
@@ -23,5 +26,5 @@ a {
 }
 
 a.active {
-  color: #f5913e;
+  color: #21825c;
 }

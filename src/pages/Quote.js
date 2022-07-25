@@ -1,4 +1,5 @@
 import { useState, useEffect } from 'react';
+import '../styles/Quote.css';
 
 const API_URL = 'http://api.quotable.io/random';
 export default function Quote() {
@@ -13,6 +14,6 @@ export default function Quote() {
     setTimeout(() => fetchQuote(), 60000);
   });
   return (
-    <h4>{ JSON.stringify(quote) }</h4>
+    <h4 id="quote">{ JSON.stringify(quote) }</h4>
   );
 }
