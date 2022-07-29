@@ -14,6 +14,7 @@
 ## Live Demo (if available)
 
 [Heroku Live Demo Link](https://mathsmagician.herokuapp.com/)
+[Netifly Live Demo Link](https://sparkly-choux-4dd3b0.netlify.app/)
 
 
 ## Getting Started
