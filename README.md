@@ -13,7 +13,7 @@
 
 ## Live Demo (if available)
 
-[Live Demo Link](https://mr-abdellah.github.io/math-magicians/)
+[Heroku Live Demo Link](https://mathsmagician.herokuapp.com/)
 
 
 ## Getting Started
